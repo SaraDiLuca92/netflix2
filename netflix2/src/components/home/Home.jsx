@@ -1,5 +1,7 @@
 import "./home.css";
+import pic from "./logo.jpg";
+
 function Home() {
-  return <h1>WELCOME</h1>;
+  return <img src={pic} alt="" />;
 }
 export default Home;
