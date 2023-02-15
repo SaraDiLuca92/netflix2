@@ -9,6 +9,7 @@ import ComponentSubNav from "./components/subnavbar";
 import TvShows from "./components/tvshows";
 
 import Footer from "./components/footer";
+import componentDetails from "./components/details";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/tv-shows" element={<TvShows />} />
-          </Routes>{" "}
+            <Route path="/details" element={<componentDetails />} />
+          </Routes>
           <Footer />{" "}
         </BrowserRouter>
       </div>
